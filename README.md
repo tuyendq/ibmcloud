@@ -1,2 +1,6 @@
-# ibmcloud
-LTHW - IBM Cloud
+# LTHW - IBM Cloud
+
+
+
+$USER = ""
+$REGION = "us-south"
