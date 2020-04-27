@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" entityID="urn:ibm:cloud:services:appid:c0a7ece0-4f65-45d7-8629-a7d133da97cb">
+  <SPSSODescriptor WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</NameIDFormat>
+    <AssertionConsumerService index="1" isDefault="true" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://us-south.appid.cloud.ibm.com/saml2/v1/c0a7ece0-4f65-45d7-8629-a7d133da97cb/login-acs"/>
+  </SPSSODescriptor>
+</EntityDescriptor>
